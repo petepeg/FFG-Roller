@@ -2,7 +2,7 @@
 A Foundry VTT module that adds a simple dice rolling window for Fantasty Flight Games RPGs
 
 ## Installation
-1. Download the [ffg-roller.zip](git hub link here)
+1. Download the [ffg-roller.zip](https://github.com/ptasty/FFG-Roller/raw/master/ffg-roller.zip)
 2. Unzip it into FoundryVTT/resources/app/public/modules
 3. Restart Foundry if it was running.
 4. Enable the module in the Module Configuration
