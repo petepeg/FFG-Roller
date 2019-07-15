@@ -23,7 +23,7 @@ Have the players pools check against the Gamemasters pool, so that the gamemaste
 ### Expand Into A Game System Module
 I would like to start working on a FFG SWR game system module at some point, starting with decent charicter sheets once this is done.
 
-###License
+### License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 This work is licensed under Foundry Virtual Tabletop [EULA - Limited License Agreement for module development v 0.1.6](http://foundryvtt.com/pages/license.html).
