@@ -1,0 +1,13 @@
+input {
+    width: 40px;
+ }
+.dice-pos, .dice-neg, .dice-force {
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding:2px;
+}
+
+.title {
+    text-align:center;
+}
