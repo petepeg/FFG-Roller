@@ -2,7 +2,7 @@
 	"name": "ffg-roller",
 	"title": "FFG Roller",
 	"description": "A die roller for Starwars FFG",
-	"version": "0.2",
+	"version": "0.3",
 	"author": "Petep",
 	"scripts": ["./ffg-roller.js"],
 	"styles": ["./ffg-roller.css"],
