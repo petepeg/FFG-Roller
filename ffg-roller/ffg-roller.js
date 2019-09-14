@@ -1,6 +1,6 @@
 /**
  * @author Petep
- * @version 0.2
+ * @version 0.1
  */
 
 /**
@@ -783,6 +783,7 @@ class FfgRoller extends Application {
     } //end chatResultCalc
     async rollDialog(finalCalc, faces) {
         //compose and render chat message
+        event.preventDefault();
         const template = "public/modules/ffg-roller/templates/roll-dialog.html";
         const templateData = {
             imgUpper: this.chatResultFace(faces),
@@ -790,6 +791,7 @@ class FfgRoller extends Application {
         };
         const chatData = {
             user: game.user.id,
+            type: CHAT_MESSAGE_TYPES.OTHER
         };
         chatData["content"] = await renderTemplate(template, templateData);
         return ChatMessage.create(chatData, { displaySheet: false });
