@@ -153,7 +153,7 @@ class FfgRoller extends Application {
             setback: [0, 0, 0], //0-nil, 1-f, 2-t
             force: [0, 0, 0, 0] //0-b, 1-bb, 2-w, 3-ww
         }
-        //Interpriting the dice rolls for calculaion while keeping track of faces
+        //Interpreting the dice rolls for calculation while keeping track of faces
         //ability die
         if (modPool.abil > 0) {
             let abilDie = new Roll(modPool.abil + "d8");
@@ -511,7 +511,7 @@ class FfgRoller extends Application {
         console.log(`Faces:\nAbil:${faces.abil}\nProf:${faces.prof}\nBoost:${faces.boost}\nDiff:${faces.diff}\nChal:${faces.chal}\nSetback:${faces.setback}\nForce:${faces.force}`);
         console.log(`Calculated: ${finalCalc}`);
     } //end ffgRoll
-    //generate imgage tags for die faces for chat message
+    //generate image tags for die faces for chat message
     chatResultFace(faces) {
         let output = "";
         let src = "";
